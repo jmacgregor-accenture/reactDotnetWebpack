@@ -2,3 +2,5 @@ require('./lib'); // if getting an unresolved error, go to "Preferences/Language
 // if running webpack script next, will need to install webpack cli--you will likely be prompted during bundling
 
 document.getElementById("vanillaJs").innerHTML = getText();
+
+$('#jqueryFill').html('I done filled this with Query!');
