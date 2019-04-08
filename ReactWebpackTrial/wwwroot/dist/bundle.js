@@ -97,14 +97,27 @@ eval("var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!\n * jQ
 
 /***/ }),
 
+/***/ "./wwwroot/src/ES6Lib.js":
+/*!*******************************!*\
+  !*** ./wwwroot/src/ES6Lib.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return ES6Lib; });\nclass ES6Lib {\n    \n    constructor() {\n        this.text = \"This is the ES6 Demo Deal\";\n    }\n    \n    getData() {\n        return this.text;\n    }\n}\n\n//# sourceURL=webpack:///./wwwroot/src/ES6Lib.js?");
+
+/***/ }),
+
 /***/ "./wwwroot/src/app.js":
 /*!****************************!*\
   !*** ./wwwroot/src/app.js ***!
   \****************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("/* WEBPACK VAR INJECTION */(function($) {__webpack_require__(/*! ./lib */ \"./wwwroot/src/lib.js\"); // if getting an unresolved error, go to \"Preferences/Languages and Frameworks/Node.js and NPM\" and click the \"Coding assistance for Node.js\"\n// if running webpack script next, will need to install webpack cli--you will likely be prompted during bundling\n\ndocument.getElementById(\"vanillaJs\").innerHTML = getText();\n\n$('#jqueryFill').html('I done filled this with Query!');\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")))\n\n//# sourceURL=webpack:///./wwwroot/src/app.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(function($) {/* harmony import */ var _ES6Lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ES6Lib */ \"./wwwroot/src/ES6Lib.js\");\n__webpack_require__(/*! ./lib */ \"./wwwroot/src/lib.js\"); // if getting an unresolved error, go to \"Preferences/Languages and Frameworks/Node.js and NPM\" and click the \"Coding assistance for Node.js\"\n// if running webpack script next, will need to install webpack cli--you will likely be prompted during bundling\n\n\ndocument.getElementById(\"vanillaJs\").innerHTML = getText();\n\n$('#jqueryFill').html('I done filled this with Query!');\n\nlet myES6Creature = new _ES6Lib__WEBPACK_IMPORTED_MODULE_0__[\"default\"]();\n$('#es6Fill').html(myES6Creature.getData());\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")))\n\n//# sourceURL=webpack:///./wwwroot/src/app.js?");
 
 /***/ }),
 
