@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "wbp": "webpack --mode development --entry ./wwwroot/src/app.js --output ./wwwroot/dist/bundle.js"
+    "wbp": "webpack"
   },
   "keywords": [],
   "author": "",
