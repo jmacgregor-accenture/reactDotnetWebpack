@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Index</title>
+</head>
+<body>
+<h1>This is An Entry Page for The Ages</h1>
+<div id="vanillaJs"></div>
+    
+@* Must be called with the deepest dependency first--since app.js calls to lib.js, lib.js must be present first *@
+<script src="src/lib.js"></script>
+<script src="src/app.js"></script>
+</body>
+</html>
