@@ -17,8 +17,9 @@
     "bootstrap": "^4.3.1",
     "css-loader": "^2.1.1",
     "jquery": "^3.3.1",
+    "mini-css-extract-plugin": "^0.5.0",
     "popper.js": "^1.15.0",
-    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.1.2",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0"
   }
