@@ -4,11 +4,20 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../CSS/site.css';
 import ES6Lib from './ES6Lib';
 
-document.getElementById("vanillaJs").innerHTML = getText();
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Counter from './components/basicComponent';
 
-$('#jqueryFill').html('I done filled this with Query! Reloaded? Banana?');
+ReactDOM.render(
+    <Counter />,
+    document.getElementById('basicReactComponent')
+);
 
-let myES6Creature = new ES6Lib();
-$('#es6Fill').html(myES6Creature.getData());
+// document.getElementById("vanillaJs").innerHTML = getText();
+//
+// $('#jqueryFill').html('I done filled this with Query! Reloaded? Banana?');
+//
+// let myES6Creature = new ES6Lib();
+// $('#es6Fill').html(myES6Creature.getData());
 
 module.hot.accept();

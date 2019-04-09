@@ -13,6 +13,7 @@
   "devDependencies": {
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
     "aspnet-webpack": "^3.0.0",
     "babel-loader": "^8.0.5",
     "bootstrap": "^4.3.1",
@@ -20,6 +21,8 @@
     "jquery": "^3.3.1",
     "mini-css-extract-plugin": "^0.5.0",
     "popper.js": "^1.15.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "uglifyjs-webpack-plugin": "^2.1.2",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0",
