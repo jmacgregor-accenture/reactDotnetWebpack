@@ -4,12 +4,14 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
-    entry: './wwwroot/src/app.js',
+    entry: {'main': './wwwroot/src/app.js'},
     output: {
         path: path.resolve(__dirname, 'wwwroot/dist'),
-        filename: 'bundle.js'
+        filename: 'bundle.js',
+        publicPath: 'dist/'
     },
     plugins: [
+        new webpack.HotModuleReplacementPlugin(),
         new MiniCssExtractPlugin({
             filename: 'allstyles.css'
         }),

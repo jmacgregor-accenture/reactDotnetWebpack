@@ -6,7 +6,9 @@ import ES6Lib from './ES6Lib';
 
 document.getElementById("vanillaJs").innerHTML = getText();
 
-$('#jqueryFill').html('I done filled this with Query!');
+$('#jqueryFill').html('I done filled this with Query! Reloaded? Banana?');
 
 let myES6Creature = new ES6Lib();
 $('#es6Fill').html(myES6Creature.getData());
+
+module.hot.accept();
